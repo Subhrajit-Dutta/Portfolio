@@ -35,6 +35,7 @@ const Sidebar = () => {
         <NavLink 
           exact="true"
           activeclassname="active"
+          className="home-link"
           to="/"
           onClick={() => setShowNav(false)}>
           <FontAwesomeIcon icon={faHome} color="#4d4d4e" />
@@ -68,6 +69,56 @@ const Sidebar = () => {
           color="#ffd700"
           size="3x"
           className='close-icon' />
+          <ul className={showNav ? 'social-icons-mobile' : 'social-icons'}>
+        <li>
+          <a
+            href="https://www.linkedin.com/in/subhrajit-dutta/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FontAwesomeIcon
+              icon={faLinkedin}
+              color="#4d4d4e"
+              className="anchor-icon"
+            />
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://github.com/Subhrajit-Dutta"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FontAwesomeIcon
+              icon={faGithub}
+              color="#4d4d4e"
+              className="anchor-icon"
+            />
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.instagram.com/subhro___/"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <FontAwesomeIcon
+              icon={faInstagram}
+              color="#4d4d4e"
+              className="anchor-icon"
+            />
+          </a>
+        </li>
+        <li>
+          <a href="https://twitter.com/Subhrastwt" rel="noreferrer" target="_blank">
+            <FontAwesomeIcon
+              icon={faTwitter}
+              color="#4d4d4e"
+              className="anchor-icon"
+            />
+          </a>
+        </li>
+      </ul>
       </nav>
       <ul>
         <li>
