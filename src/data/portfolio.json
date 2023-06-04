@@ -1,6 +1,12 @@
 {
     "portfolio": [
         {
+            "cover": "/portfolio/1/my-flask-app.png",
+            "title": "Cloud-native-monitoring-app",
+            "description": "Python, Flask, Docker, Kubernetes",
+            "url": "https://github.com/Subhrajit-Dutta/Cloud-native-monitoring-app"
+        },
+        {
             "cover": "/portfolio/1/Venline.png",
             "title": "Venline",
             "description": "HTML, CSS, MongoDB, NodeJs, Express",
