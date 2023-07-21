@@ -1,28 +1,34 @@
 {
     "portfolio": [
         {
+            "cover": "/portfolio/1/prathamik.png",
+            "title": "Prathamik",
+            "description": "React, NodeJS, OCR, WebRTC",
+            "url": "https://prathamik.vercel.app/"
+        },
+        {
             "cover": "/portfolio/1/my-flask-app.png",
             "title": "Cloud-native-monitoring-app",
             "description": "Python, Flask, Docker, Kubernetes",
-            "url": "https://github.com/Subhrajit-Dutta/Cloud-native-monitoring-app"
+            "url": "https://cloud-native-monitoring-app-subhrajit-dutta.vercel.app/"
         },
         {
             "cover": "/portfolio/1/Venline.png",
             "title": "Venline",
-            "description": "HTML, CSS, MongoDB, NodeJs, Express",
-            "url": "https://github.com/Subhrajit-Dutta/Venline"
+            "description": "HTML, CSS, MongoDB, NodeJS, Express",
+            "url": "https://www.venline.co/"
+        },
+        {
+            "cover": "/portfolio/1/ChatHive.png",
+            "title": "ChatHive",
+            "description": "NodeJS, Express, Socket.io",
+            "url": "https://chathive.onrender.com/"
         },
         {
             "cover": "/portfolio/1/Portfolio.png",
             "title": "Portfolio",
             "description": "React",
-            "url": "https://github.com/Subhrajit-Dutta/Portfolio"
-        },
-        {
-            "cover": "/portfolio/1/ChatHive.png",
-            "title": "ChatHive",
-            "description": "NodeJs, Express, Socket.io",
-            "url": "https://github.com/Subhrajit-Dutta/ChatHive"
+            "url": "https://www.subhrajitdutta.co/portfolio"
         }
     ]
 }
