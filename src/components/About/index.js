@@ -33,18 +33,17 @@ const About = () => {
             />
           </h1>
           <p>
-            I'm a very ambitious Full-Stack developer looking for a role in an
-            established IT company with the opportunity to work with the latest
-            technologies on challenging and diverse projects.
+          I'm an incredibly ambitious and passionate Full-Stack developer, seeking an opportunity to join an established IT company that fosters innovation and allows me to work with cutting-edge technologies on challenging and diverse projects.
           </p>
           <p align="LEFT">
-            I'm quiet confident, naturally curious, and perpetually working on
-            improving my chops one design problem at a time.
+          My confidence and curiosity drive me to continuously improve my skills, tackling design problems head-on and embracing each challenge as an opportunity for growth.
           </p>
           <p>
-            If I need to define myself in one sentence that would be a family
-            person, a guitarist, problem solver, and tech-obsessed!!!
+          With an unwavering passion for technology and a commitment to excellence, I'm eager to collaborate with like-minded professionals to create impactful solutions and drive innovation in the IT landscape.<br></br>
+          <br></br>
+          Let's connect and explore the possibilities of working together on exciting ventures that push boundaries and make a difference!
           </p>
+          
         </div>
 
         <div className="stage-cube-cont">
