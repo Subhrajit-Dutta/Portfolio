@@ -7,7 +7,8 @@ import {
   faLinkedin,
   faGithub,
   faInstagram,
-  faTwitter,
+  faTwitter, 
+  faHashnode
 } from '@fortawesome/free-brands-svg-icons'
 import {
   faHome,
@@ -54,6 +55,14 @@ const Sidebar = () => {
           onClick={() => setShowNav(false)}
         >
           <FontAwesomeIcon icon={faSuitcase} color="#4d4d4e" />
+        </NavLink>
+        <NavLink
+          activeclassname="active"
+          className="blog-link" // Added class for blog link
+          to="/blog"
+          onClick={() => setShowNav(false)}
+        >
+          <FontAwesomeIcon icon={faHashnode} /> {/* RSS icon for blog */}
         </NavLink>
         <NavLink
           activeclassname="active"
@@ -118,6 +127,11 @@ const Sidebar = () => {
             />
           </a>
         </li>
+        <li>
+          <a href="https://subhrajit.hashnode.dev/" rel="noreferrer" target="_blank"> {/* Hashnode URL */}
+          <FontAwesomeIcon icon={faHashnode} />
+          </a>
+        </li>
       </ul>
       </nav>
       <ul>
@@ -167,6 +181,11 @@ const Sidebar = () => {
               color="#4d4d4e"
               className="anchor-icon"
             />
+          </a>
+        </li>
+        <li>
+          <a href="https://subhrajit.hashnode.dev/" rel="noreferrer" target="_blank"> {/* Hashnode URL */}
+          <FontAwesomeIcon icon={faHashnode} />
           </a>
         </li>
       </ul>
